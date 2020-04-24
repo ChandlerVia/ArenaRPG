@@ -55,12 +55,11 @@ public class Warrior extends Character {
             else
                 System.out.println(target.name + " blocked the attack!");
         }
-        /********************************************
-         *  If we wanted to add a new choice, we would have to add it around here, where we'd have another
-         *  "else if (choice == X)" line. We need to check for anything that could block attacks, or anything
-         *  else that would stop an attack. (Maybe a magic shield for our wizard??) After, we'd call
-         *  the function that we made in our class, just like this.greatsword()  !
-         *******************************************/
+
+         // If we wanted to add a new choice, we would have to add it around here, where we'd have another
+         // "else if (choice == X)" line. We need to check for anything that could block attacks, or anything
+         // else that would stop an attack. (Maybe a magic shield for our wizard??) After, we'd call
+         // the function that we made in our class, just like this.greatsword()  !
 
         else if (choice == 2){          //We don't have to check if the opponent is blocking, because we aren't attacking!
             this.block(target);
